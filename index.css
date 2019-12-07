@@ -43,6 +43,8 @@
     max-width: 100%;
     height: auto;
     width: auto\9;
+    border: 1px solid #000000;
+    border-radius: .3em;
   }
 
   .portfolio-title {
