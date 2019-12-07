@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    background-color: #F2F2F2;
+  }
+
+  nav {
+    padding: 24px 0 0 0;
+  }
+
+  section {
+    padding-top: 5%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+  }
+
+  header, footer {
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+  }
+
+  header {
+    border-bottom: 1px solid #CED5D9;
+  }
+
+  footer {
+    border-top: 1px solid #CED5D9;
+  }
+
+  .hello, .footer-intro {
+    font-weight: 900;
+    font-size: 18px;
+  }
+
+  .portfolio-title {
+    padding: 24px 0 0 0;
+    font-weight: 900;
+    font-size: 21px;
+  }
+
+  .portfolio-short-description {
+    padding: 3px 0 0 0;
+    font-size: 18px;
+    color: #8C8C8C;
+  }
+
+  .wide-line {
+    margin: 18px 0 18px 0;
+    border-top: 3px solid #49838C;
+  }
+
+  .portfo-description {
+    width: 65%;
+  }
+
+  .portfo-right-content {
+    width: 25%;
+    padding: 0 0 0 18px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="portfo-"] {
+      width: 100%;
+    }
+
+    .portfo-right-content {
+      padding: 0;
+    }
+  }
+
+  [class*="portfo-"] {
+    float: left;
+  }
+
+  .technology-used {
+    padding: 0;
+  }
+
+  .tech {
+    padding: 0 0 6px 0;
+  }
+
+  .portfolio-description-and-tech-used {
+    display: inline-block;
+  }
+
+  .portfolio-technology-used ul {
+    list-style-type: none;
+    font-weight: 900;
+  }
+
+  .portfolio-technology-used ul li {
+    padding: 0 2px 0 0;
+    display: inline-block;
+    font-weight: 400;
+  }
+
+  .portfolio-technology-used li::after {
+    content: ",";
+  }
+  
+  .portfolio-technology-used li:last-child::after {
+    content: "";
+  }
+
+  .connect-link:link, .github-link:link, .email-connect:link, .linkedin-connect:link {
+    text-decoration: none;
+    border: 2px solid #62B4BF;
+    padding: 6px;
+    color: #000000;
+  }
+
+  .connect-link:visited, .github-link:visited, .email-connect:visited, .linkedin-connect:visited, .live-app-link:link, .repo-link:link, .live-app-link:visited, .repo-link:visited {
+    text-decoration: none;
+    border: 2px solid #62B4BF;
+    padding: 6px;
+    color: #000000;
+  }
+
+  .connect-link:hover, .github-link:hover, .email-connect:hover, .linkedin-connect:hover, .live-app-link:hover, .repo-link:hover {
+    text-decoration: none;
+    border: 2px solid #62B4BF;
+    background-color: #CCF7FC;
+    padding: 6px;
+    color: #62B4BF;
+  }
+
+  .link-space {
+    margin-top: 18px;
+  }
+
+  .to-the-top:link, .to-the-top:visited, .to-the-top:hover {
+    text-decoration: none;
+    color: #BDBDBD;
+  }
