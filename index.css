@@ -34,9 +34,10 @@
     border-top: 1px solid #CED5D9;
   }
 
-  .hello, .footer-intro {
+  .hello, .footer-intro, h1 {
     font-weight: 900;
     font-size: 18px;
+    display: inline;
   }
   
   img {
@@ -47,7 +48,11 @@
     border-radius: .3em;
   }
 
-  .portfolio-title {
+  h2 {
+    margin: 0;
+  }
+
+  .portfolio-title, h2{
     padding: 24px 0 0 0;
     font-weight: 900;
     font-size: 21px;
@@ -61,7 +66,7 @@
 
   .wide-line {
     margin: 18px 0 18px 0;
-    border-top: 3px solid #49838C;
+    border-top: 3px solid #025951;
   }
 
   .portfo-description {
@@ -74,7 +79,7 @@
   }
 
   @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+    /* For mobile phones 768px to 320px: */
     [class*="portfo-"] {
       width: 100%;
     }
@@ -90,10 +95,6 @@
 
   .technology-used {
     padding: 0;
-  }
-
-  .tech {
-    padding: 0 0 6px 0;
   }
 
   .portfolio-description-and-tech-used {
@@ -121,24 +122,27 @@
 
   .connect-link:link, .github-link:link, .email-connect:link, .linkedin-connect:link {
     text-decoration: none;
-    border: 2px solid #62B4BF;
+    border: 2px solid #04BFAD;
     padding: 6px;
     color: #000000;
+    border-radius: .1em;
   }
 
   .connect-link:visited, .github-link:visited, .email-connect:visited, .linkedin-connect:visited, .live-app-link:link, .repo-link:link, .live-app-link:visited, .repo-link:visited {
     text-decoration: none;
-    border: 2px solid #62B4BF;
+    border: 2px solid #04BFAD;
     padding: 6px;
     color: #000000;
+    border-radius: .1em;
   }
 
   .connect-link:hover, .github-link:hover, .email-connect:hover, .linkedin-connect:hover, .live-app-link:hover, .repo-link:hover {
     text-decoration: none;
-    border: 2px solid #62B4BF;
-    background-color: #CCF7FC;
+    border: 2px solid #691D73;
+    background-color: #691D73;
+    color: #F8F8F8;
     padding: 6px;
-    color: #62B4BF;
+    border-radius: .1em;
   }
 
   .link-space {
@@ -147,5 +151,5 @@
 
   .to-the-top:link, .to-the-top:visited, .to-the-top:hover {
     text-decoration: none;
-    color: #BDBDBD;
+    color: #A9A9A9;
   }
