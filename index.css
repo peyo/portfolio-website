@@ -61,7 +61,7 @@
   .portfolio-short-description {
     padding: 3px 0 0 0;
     font-size: 18px;
-    color: #696969;
+    color: #8C8C8C;
   }
 
   .wide-line {
@@ -75,7 +75,7 @@
 
   .portfo-right-content {
     width: 25%;
-    padding: 0 0 0 18px;
+    padding: 16px 0 0 12px;
   }
 
   @media only screen and (max-width: 768px) {
@@ -94,7 +94,7 @@
   }
 
   .technology-used {
-    padding: 0;
+    padding: 0 0 9px 0;
   }
 
   .portfolio-description-and-tech-used {
@@ -150,6 +150,5 @@
   }
 
   .to-the-top:link, .to-the-top:visited, .to-the-top:hover {
-    text-decoration: none;
-    color: #696969;
+    color: #000000;
   }
