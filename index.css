@@ -61,7 +61,7 @@
   .portfolio-short-description {
     padding: 3px 0 0 0;
     font-size: 18px;
-    color: #8C8C8C;
+    color: #696969;
   }
 
   .wide-line {
@@ -151,5 +151,5 @@
 
   .to-the-top:link, .to-the-top:visited, .to-the-top:hover {
     text-decoration: none;
-    color: #A9A9A9;
+    color: #696969;
   }
