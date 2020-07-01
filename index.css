@@ -3,7 +3,7 @@
   }
   
   body {
-    font-family: "Open Sans", sans-serif;
+    font-family: sans-serif;
     line-height: 1.5;
   }
 
@@ -23,25 +23,14 @@
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 5%;
-    background-color: slat;
-  }
-
-  header {
-    border-bottom: 1px solid #CED5D9;
-  }
-
-  footer {
-    border-top: 1px solid #CED5D9;
+    background-color: #ccd4db;
+    border-bottom: 1px solid #818588;
   }
 
   .hello, .footer-intro {
     font-weight: 500;
     font-size: 16px;
     display: inline;
-  }
-
-  .hello {
-    color: #04BFAD;
   }
   
   img {
