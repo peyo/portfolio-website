@@ -3,8 +3,8 @@
   }
   
   body {
-    font-family: sans-serif;
     line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif
   }
 
   header, footer {
@@ -14,16 +14,16 @@
     padding-bottom: 5%;
   }
 
-  header {
-    border-bottom: 7px solid #000000;
-  }
-
   nav {
     padding: 24px 0 0 0;
   }
 
+  header {
+    border-bottom: 3px solid darkgrey;
+  }
+
   footer {
-    border-top: 7px solid #000000;
+    border-top: 3px solid darkgrey;
   }
 
   section {
@@ -39,7 +39,7 @@
     display: inline;
   }
 
-  .peter-wrapper, .footer-intro {
+  .hello-world, .footer-intro {
     font-weight: bold;
   }
   
@@ -53,13 +53,22 @@
     margin: 0;
     padding: 18px 0 0 0;
     font-weight: 900;
-    font-size: 21px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
   }
+
+  .portfolio-overview, .portfolio-learnings {
+    font-weight: 900;
+    margin: 0 0 16px 0;
+    font-size: 17px;
+    color: rgb(122, 122, 122);
+  }  
 
   .portfolio-short-description {
     padding: 3px 0 21px 0;
-    font-size: 18px;
-    color:black;
+    font-size: 14px;
+    color: rgb(122, 122, 122);
+    font-weight: 700;
   }
 
   .portfolio-image {
@@ -68,17 +77,23 @@
 
   .work-in-progress {
     font-size: 18px;
-    color:grey;
-    font-style: italic;
+    color: rgb(228, 148, 0);
+    font-weight: 900;
   }
 
   .wide-line {
     margin: 33px 0 33px 0;
-    border-top: 3px solid #000000;
+    border-top: 3px solid darkgrey;
   }
 
   .portfo-description {
     width: 65%;
+  }
+
+  .portfolio-technology-used-title {
+    font-size: 17px;
+    color: rgb(122, 122, 122);
+    font-weight: 900;
   }
 
   .portfo-right-content {
@@ -90,6 +105,12 @@
     /* For mobile phones 320px to 768px: */
     [class*="portfo-"] {
       width: 100%;
+    }
+
+    .portfolio-technology-used-title {
+      font-size: 17px;
+      color: rgb(122, 122, 122);
+      font-weight: 900;
     }
 
     .portfo-right-content {
@@ -107,6 +128,7 @@
 
   .portfolio-description-and-tech-used {
     display: inline-block;
+    font-size: 17px;
   }
 
   .portfolio-technology-used ul {
@@ -148,6 +170,7 @@
   .connect-link:link, .github-link:link, .email-connect:link, .linkedin-connect:link {
     text-decoration: none;
     border: 2px solid #000000;
+    border-radius: .2em;
     padding: 6px;
     color: #000000;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -157,6 +180,7 @@
   .connect-link:visited, .github-link:visited, .email-connect:visited, .linkedin-connect:visited, .live-app-link:link, .repo-link:link, .live-app-link:visited, .repo-link:visited {
     text-decoration: none;
     border: 2px solid #000000;
+    border-radius: .2em;
     padding: 6px;
     color: #000000;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
