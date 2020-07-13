@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
   }
+
+  @font-face {
+    font-family: 'd-din';
+    src: url('https://github.com/peyo/portfolio-website/blob/master/fonts/webfontkit-20200713-003747/d-din-webfont.woff?raw=true') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
   
   body {
     line-height: 1.5;
