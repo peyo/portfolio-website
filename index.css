@@ -1,198 +1,216 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    line-height: 1.5;
-    font-family: "Roboto", sans-serif;
-  }
+  box-sizing: border-box;
+}
 
-  header, footer {
-    padding-top: 5%;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-bottom: 5%;
-  }
+body {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
 
-  nav {
-    padding: 24px 0 0 0;
-  }
+header,
+footer {
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
 
-  header {
-    border-bottom: 1px solid darkgrey;
-  }
+nav {
+  padding: 24px 0 0 0;
+}
 
-  footer {
-    border-top: 1px solid darkgrey;
-  }
+header {
+  border-bottom: 1px solid darkgrey;
+}
 
-  .wide-line {
-    margin: 33px 0 33px 0;
-    border-top: 1px solid darkgrey;
-  }
+footer {
+  border-top: 1px solid darkgrey;
+}
 
-  section {
-    padding-top: 5%;
-    padding-right: 15%;
-    padding-bottom: 5%;
-    padding-left: 15%;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-  }
+.wide-line {
+  margin: 33px 0 33px 0;
+  border-top: 1px solid darkgrey;
+}
 
-  .hello-world {
-    font-size: 21px;
-    margin: 0 0 17px 0;
-  }
+section {
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+}
 
-  .portfolio-title {
-    padding: 18px 0 0 0;
-    font-size: 27px;
-    font-weight: 500;
-  } 
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
 
-  .portfolio-short-description {
-    padding: 3px 0 21px 0;
-    font-size: 17px;
-    color: rgb(122, 122, 122);
-  }
+.hello-world {
+  font-size: 21px;
+  margin: 0 0 17px 0;
+}
 
-  .portfolio-image {
-    margin: 16px 0 0 0;
-  }
+.portfolio-title {
+  padding: 18px 0 0 0;
+  font-size: 27px;
+  font-weight: 500;
+}
 
-  .portfolio-overview, .portfolio-learnings, .portfolio-process-and-planning, .portfolio-technology-used-title {
-    font-size: 21px;
-    color: rgb(122, 122, 122);
-    margin: 0 0 17px 0;
-  }
+.portfolio-short-description {
+  padding: 3px 0 21px 0;
+  font-size: 17px;
+  color: rgb(122, 122, 122);
+}
 
-  .portfolio-technology-used-title {
-    margin: 17px 0 17px 0;
-  }
+.portfolio-image {
+  margin: 16px 0 0 0;
+}
 
-  .work-in-progress {
-    font-size: 18px;
-    color: rgb(53, 211, 66);
-    font-weight: 900;
-  }
+.portfolio-overview,
+.portfolio-learnings,
+.portfolio-process-and-planning,
+.portfolio-technology-used-title {
+  font-size: 21px;
+  color: rgb(122, 122, 122);
+  margin: 0 0 17px 0;
+}
 
-  .portfo-description {
-    width: 65%;
-    margin: 0 51px 0 0;
+.portfolio-technology-used-title {
+  margin: 17px 0 17px 0;
+}
+
+.work-in-progress {
+  font-size: 18px;
+  color: rgb(53, 211, 66);
+  font-weight: 900;
+}
+
+.portfo-description {
+  width: 65%;
+  margin: 0 51px 0 0;
+}
+
+.portfo-right-content {
+  width: 25%;
+  padding: 0 15px 0 15px;
+  border: 1px solid grey;
+  border-radius: 0.3em;
+}
+
+[class*="portfo-"] {
+  float: left;
+}
+
+.last-updated {
+  margin: 17px 0 0 0;
+  color: grey;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.technology-used {
+  padding: 0 0 9px 0;
+}
+
+.portfolio-description-and-tech-used {
+  display: inline-block;
+  font-size: 17px;
+  margin: 12px 0 0 0;
+}
+
+.portfolio-technology-used ul {
+  list-style-type: none;
+  font-weight: 900;
+}
+
+.portfolio-technology-used ul li {
+  padding: 0 2px 0 0;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.portfolio-technology-used li::after {
+  content: ",";
+}
+
+.portfolio-technology-used li:last-child::after {
+  content: "";
+}
+
+.link {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.link:visited {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.connect-link:link,
+.github-link:link,
+.email-connect:link,
+.linkedin-connect:link {
+  text-decoration: none;
+  border: 1px solid #000000;
+  border-radius: 0.2em;
+  padding: 6px;
+  margin: 0 9px 0 0;
+  color: #000000;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.connect-link:visited,
+.github-link:visited,
+.email-connect:visited,
+.linkedin-connect:visited,
+.repo-link:link,
+.repo-link:visited {
+  text-decoration: none;
+  border: 1px solid #000000;
+  border-radius: 0.2em;
+  padding: 6px;
+  margin: 0 9px 0 0;
+  color: #000000;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.connect-link:hover,
+.github-link:hover,
+.email-connect:hover,
+.linkedin-connect:hover,
+.repo-link:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.link-space {
+  margin-top: 18px;
+}
+
+.to-the-top:link,
+.to-the-top:visited,
+.to-the-top:hover {
+  color: #000000;
+}
+
+@media only screen and (max-width: 1230px) {
+  /* For mobile phones 768px to 1100px: */
+  [class*="portfo-"] {
+    width: 100%;
   }
 
   .portfo-right-content {
-    width: 25%;
-    padding: 0 15px 0 15px;
-    border: 1px solid grey;
-    border-radius: .3em;
-  }
-
-  [class*="portfo-"] {
-    float: left;
-  }
-
-  .last-updated {
     margin: 17px 0 0 0;
-    color: grey;
-    font-style: italic;
-    font-size: 15px;
+    border: 0;
+    padding: 0;
   }
-
-  .technology-used {
-    padding: 0 0 9px 0;
-  }
-
-  .portfolio-description-and-tech-used {
-    display: inline-block;
-    font-size: 17px;
-    margin: 12px 0 0 0;
-  }
-
-  .portfolio-technology-used ul {
-    list-style-type: none;
-    font-weight: 900;
-  }
-
-  .portfolio-technology-used ul li {
-    padding: 0 2px 0 0;
-    display: inline-block;
-    font-weight: 400;
-  }
-
-  .portfolio-technology-used li::after {
-    content: ",";
-  }
-  
-  .portfolio-technology-used li:last-child::after {
-    content: "";
-  }
-
-  .link {
-    font-weight: bold;
-    color: #000000;
-    text-decoration: underline;
-  }
-
-  .link:visited {
-    font-weight: bold;
-    color: #000000;
-    text-decoration: underline;
-  }
-
-  .link:hover {
-    color: #000000;
-    text-decoration: none;
-  }
-
-  .connect-link:link, .github-link:link, .email-connect:link, .linkedin-connect:link {
-    text-decoration: none;
-    border: 1px solid #000000;
-    border-radius: .2em;
-    padding: 6px;
-    margin: 0 9px 0 0;
-    color: #000000;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  }
-
-  .connect-link:visited, .github-link:visited, .email-connect:visited, .linkedin-connect:visited, .repo-link:link, .repo-link:visited {
-    text-decoration: none;
-    border: 1px solid #000000;
-    border-radius: .2em;
-    padding: 6px;
-    margin: 0 9px 0 0;
-    color: #000000;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  }
-
-  .connect-link:hover, .github-link:hover, .email-connect:hover, .linkedin-connect:hover, .repo-link:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  }
-
-  .link-space {
-    margin-top: 18px;
-  }
-
-  .to-the-top:link, .to-the-top:visited, .to-the-top:hover {
-    color: #000000;
-  }
-
-  @media only screen and (max-width: 1230px) {
-    /* For mobile phones 768px to 1100px: */
-    [class*="portfo-"] {
-      width: 100%;
-    }
-
-    .portfo-right-content {
-      margin: 17px 0 0 0;
-      border: 0;
-      padding: 0;
-    }
-  }
+}
