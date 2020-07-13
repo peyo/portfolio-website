@@ -71,6 +71,10 @@
     margin: 0 0 17px 0;
   }
 
+  .portfolio-technology-used-title {
+    margin: 17px 0 17px 0;
+  }
+
   .work-in-progress {
     font-size: 18px;
     color: rgb(53, 211, 66);
@@ -84,7 +88,9 @@
 
   .portfo-right-content {
     width: 25%;
-    padding: 0 0 0 15px;
+    padding: 0 15px 0 15px;
+    border: 1px solid grey;
+    border-radius: .3em;
   }
 
   [class*="portfo-"] {
@@ -146,7 +152,7 @@
 
   .connect-link:link, .github-link:link, .email-connect:link, .linkedin-connect:link {
     text-decoration: none;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     border-radius: .2em;
     padding: 6px;
     margin: 0 9px 0 0;
@@ -157,7 +163,7 @@
 
   .connect-link:visited, .github-link:visited, .email-connect:visited, .linkedin-connect:visited, .repo-link:link, .repo-link:visited {
     text-decoration: none;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     border-radius: .2em;
     padding: 6px;
     margin: 0 9px 0 0;
@@ -186,6 +192,7 @@
 
     .portfo-right-content {
       margin: 17px 0 0 0;
+      border: 0;
       padding: 0;
     }
   }
