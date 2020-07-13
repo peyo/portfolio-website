@@ -207,8 +207,16 @@ img {
   }
 
   .portfo-right-content {
-    margin: 17px 0 0 0;
-    border: 0;
+    margin: 3px 0 0 0;
+    border: none;
     padding: 0;
+  }
+
+  .technology-used {
+    padding: 0;
+  }
+
+  .last-updated {
+    margin: 0;
   }
 }
