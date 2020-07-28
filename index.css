@@ -13,6 +13,7 @@ footer {
   padding-right: 10%;
   padding-left: 10%;
   padding-bottom: 5%;
+  background-color: rgb(225, 225, 225);
 }
 
 nav {
@@ -159,6 +160,7 @@ img {
 .github-link:link,
 .email-connect:link,
 .linkedin-connect:link {
+  background-color: white;
   text-decoration: none;
   border: 1px solid #000000;
   border-radius: 0.3em;
@@ -174,6 +176,7 @@ img {
 .linkedin-connect:visited,
 .repo-link:link,
 .repo-link:visited {
+  background-color: white;
   text-decoration: none;
   border: 1px solid #000000;
   border-radius: 0.3em;
